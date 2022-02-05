@@ -23,7 +23,7 @@ def test_c():
     print(len(v))
 
 def test_d():
-    a = [11,4,13,17,1,3,9,10]
+    a = [11,4,13,17,1,3,9,10,30]
     if len(a) == 8:
         print('cool')
     else:
