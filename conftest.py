@@ -6,3 +6,6 @@ someon = requests.get("https://petstore.swagger.io/#/pet/findPetsByStatus", para
 
 print(someon.text)
 
+
+
+
