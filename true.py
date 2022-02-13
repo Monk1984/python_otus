@@ -1,7 +1,7 @@
 from json.decoder import JSONDecodeError
 import requests
 
-response = requests.get("https://petstore.swagger.io/#/pet/findPetsByStatus/", params={"available": "pending"})
+response = requests.get("https://petstore.swagger.io/check_type", allow_redirects=True)
 print(response.text)
 
 try:
